@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7401AC0527816AA700EF1093 /* HTVRenderingAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7401AC0427816AA700EF1093 /* HTVRenderingAlgorithm.swift */; };
+		74607168277E8ADB004CC8BC /* ClickDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74607167277E8ADB004CC8BC /* ClickDetector.swift */; };
+		74C0BFFB2779CE94004A688B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C0BFFA2779CE94004A688B /* AppDelegate.swift */; };
+		74C0BFFD2779CE94004A688B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C0BFFC2779CE94004A688B /* ViewController.swift */; };
+		74C0BFFF2779CE96004A688B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C0BFFE2779CE96004A688B /* Assets.xcassets */; };
+		74C0C0022779CE96004A688B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C0C0002779CE96004A688B /* Main.storyboard */; };
+		74C0C00C2779CFC8004A688B /* HyperbolicTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C0C00B2779CFC8004A688B /* HyperbolicTreeView.swift */; };
+		74C0C0142779CFE2004A688B /* HTVGeodesic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C0C00D2779CFE2004A688B /* HTVGeodesic.swift */; };
+		74C0C0152779CFE2004A688B /* HTVComplex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C0C00E2779CFE2004A688B /* HTVComplex.swift */; };
+		74C0C0162779CFE2004A688B /* HTVNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C0C00F2779CFE2004A688B /* HTVNode.swift */; };
+		74C0C0172779CFE2004A688B /* HTVProjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C0C0102779CFE2004A688B /* HTVProjector.swift */; };
+		74C0C0182779CFE2004A688B /* HTVEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C0C0112779CFE2004A688B /* HTVEvent.swift */; };
+		74C0C0192779CFE2004A688B /* HTVActionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C0C0122779CFE2004A688B /* HTVActionManager.swift */; };
+		74C0C01A2779CFE2004A688B /* HTVTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C0C0132779CFE2004A688B /* HTVTransform.swift */; };
+		74C0C01D2779CFEF004A688B /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C0C01B2779CFEF004A688B /* Graphics.swift */; };
+		74C0C01E2779CFEF004A688B /* Sprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C0C01C2779CFEF004A688B /* Sprite.swift */; };
+		74DE72D0277D7DF900B76176 /* HyperbolicTreeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DE72CF277D7DF900B76176 /* HyperbolicTreeViewTests.swift */; };
+		74DE72D8277D7E6600B76176 /* HTVComplexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DE72D7277D7E6600B76176 /* HTVComplexTests.swift */; };
+		74DE72DA277D868A00B76176 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DE72D9277D868A00B76176 /* TestView.swift */; };
+		74F0336427813AD1002431F4 /* HTVLayoutAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F0336327813AD1002431F4 /* HTVLayoutAlgorithm.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74DE72D1277D7DF900B76176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74C0BFEF2779CE94004A688B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74C0BFF62779CE94004A688B;
+			remoteInfo = HyperbolicTreeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7401AC0427816AA700EF1093 /* HTVRenderingAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTVRenderingAlgorithm.swift; sourceTree = "<group>"; };
+		74607167277E8ADB004CC8BC /* ClickDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickDetector.swift; sourceTree = "<group>"; };
+		74C0BFF72779CE94004A688B /* HyperbolicTreeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperbolicTreeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C0BFFA2779CE94004A688B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74C0BFFC2779CE94004A688B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74C0BFFE2779CE96004A688B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74C0C0012779CE96004A688B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74C0C0032779CE96004A688B /* HyperbolicTreeView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HyperbolicTreeView.entitlements; sourceTree = "<group>"; };
+		74C0C00B2779CFC8004A688B /* HyperbolicTreeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HyperbolicTreeView.swift; sourceTree = "<group>"; };
+		74C0C00D2779CFE2004A688B /* HTVGeodesic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTVGeodesic.swift; sourceTree = "<group>"; };
+		74C0C00E2779CFE2004A688B /* HTVComplex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTVComplex.swift; sourceTree = "<group>"; };
+		74C0C00F2779CFE2004A688B /* HTVNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTVNode.swift; sourceTree = "<group>"; };
+		74C0C0102779CFE2004A688B /* HTVProjector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTVProjector.swift; sourceTree = "<group>"; };
+		74C0C0112779CFE2004A688B /* HTVEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTVEvent.swift; sourceTree = "<group>"; };
+		74C0C0122779CFE2004A688B /* HTVActionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTVActionManager.swift; sourceTree = "<group>"; };
+		74C0C0132779CFE2004A688B /* HTVTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTVTransform.swift; sourceTree = "<group>"; };
+		74C0C01B2779CFEF004A688B /* Graphics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graphics.swift; sourceTree = "<group>"; };
+		74C0C01C2779CFEF004A688B /* Sprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sprite.swift; sourceTree = "<group>"; };
+		74DE72CD277D7DF900B76176 /* HyperbolicTreeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyperbolicTreeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DE72CF277D7DF900B76176 /* HyperbolicTreeViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperbolicTreeViewTests.swift; sourceTree = "<group>"; };
+		74DE72D7277D7E6600B76176 /* HTVComplexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTVComplexTests.swift; sourceTree = "<group>"; };
+		74DE72D9277D868A00B76176 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		74F0336327813AD1002431F4 /* HTVLayoutAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTVLayoutAlgorithm.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74C0BFF42779CE94004A688B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DE72CA277D7DF900B76176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74C0BFEE2779CE94004A688B = {
+			isa = PBXGroup;
+			children = (
+				74C0BFF92779CE94004A688B /* HyperbolicTreeView */,
+				74DE72CE277D7DF900B76176 /* HyperbolicTreeViewTests */,
+				74C0BFF82779CE94004A688B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74C0BFF82779CE94004A688B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74C0BFF72779CE94004A688B /* HyperbolicTreeView.app */,
+				74DE72CD277D7DF900B76176 /* HyperbolicTreeViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74C0BFF92779CE94004A688B /* HyperbolicTreeView */ = {
+			isa = PBXGroup;
+			children = (
+				74607167277E8ADB004CC8BC /* ClickDetector.swift */,
+				74C0C00B2779CFC8004A688B /* HyperbolicTreeView.swift */,
+				74C0C00A2779CF01004A688B /* htv */,
+				74C0C0092779CEF0004A688B /* sprite */,
+				74C0BFFA2779CE94004A688B /* AppDelegate.swift */,
+				74C0BFFC2779CE94004A688B /* ViewController.swift */,
+				74C0BFFE2779CE96004A688B /* Assets.xcassets */,
+				74C0C0002779CE96004A688B /* Main.storyboard */,
+				74C0C0032779CE96004A688B /* HyperbolicTreeView.entitlements */,
+			);
+			path = HyperbolicTreeView;
+			sourceTree = "<group>";
+		};
+		74C0C0092779CEF0004A688B /* sprite */ = {
+			isa = PBXGroup;
+			children = (
+				74C0C01B2779CFEF004A688B /* Graphics.swift */,
+				74C0C01C2779CFEF004A688B /* Sprite.swift */,
+			);
+			path = sprite;
+			sourceTree = "<group>";
+		};
+		74C0C00A2779CF01004A688B /* htv */ = {
+			isa = PBXGroup;
+			children = (
+				74C0C0122779CFE2004A688B /* HTVActionManager.swift */,
+				74C0C00E2779CFE2004A688B /* HTVComplex.swift */,
+				74C0C0112779CFE2004A688B /* HTVEvent.swift */,
+				74C0C00D2779CFE2004A688B /* HTVGeodesic.swift */,
+				74F0336327813AD1002431F4 /* HTVLayoutAlgorithm.swift */,
+				74C0C00F2779CFE2004A688B /* HTVNode.swift */,
+				74C0C0102779CFE2004A688B /* HTVProjector.swift */,
+				7401AC0427816AA700EF1093 /* HTVRenderingAlgorithm.swift */,
+				74C0C0132779CFE2004A688B /* HTVTransform.swift */,
+			);
+			path = htv;
+			sourceTree = "<group>";
+		};
+		74DE72CE277D7DF900B76176 /* HyperbolicTreeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				74DE72D6277D7E4900B76176 /* htv */,
+				74DE72CF277D7DF900B76176 /* HyperbolicTreeViewTests.swift */,
+				74DE72D9277D868A00B76176 /* TestView.swift */,
+			);
+			path = HyperbolicTreeViewTests;
+			sourceTree = "<group>";
+		};
+		74DE72D6277D7E4900B76176 /* htv */ = {
+			isa = PBXGroup;
+			children = (
+				74DE72D7277D7E6600B76176 /* HTVComplexTests.swift */,
+			);
+			path = htv;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74C0BFF62779CE94004A688B /* HyperbolicTreeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C0C0062779CE96004A688B /* Build configuration list for PBXNativeTarget "HyperbolicTreeView" */;
+			buildPhases = (
+				74C0BFF32779CE94004A688B /* Sources */,
+				74C0BFF42779CE94004A688B /* Frameworks */,
+				74C0BFF52779CE94004A688B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HyperbolicTreeView;
+			productName = HyperbolicTreeView;
+			productReference = 74C0BFF72779CE94004A688B /* HyperbolicTreeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74DE72CC277D7DF900B76176 /* HyperbolicTreeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DE72D5277D7DF900B76176 /* Build configuration list for PBXNativeTarget "HyperbolicTreeViewTests" */;
+			buildPhases = (
+				74DE72C9277D7DF900B76176 /* Sources */,
+				74DE72CA277D7DF900B76176 /* Frameworks */,
+				74DE72CB277D7DF900B76176 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74DE72D2277D7DF900B76176 /* PBXTargetDependency */,
+			);
+			name = HyperbolicTreeViewTests;
+			productName = HyperbolicTreeViewTests;
+			productReference = 74DE72CD277D7DF900B76176 /* HyperbolicTreeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74C0BFEF2779CE94004A688B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					74C0BFF62779CE94004A688B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					74DE72CC277D7DF900B76176 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 74C0BFF62779CE94004A688B;
+					};
+				};
+			};
+			buildConfigurationList = 74C0BFF22779CE94004A688B /* Build configuration list for PBXProject "HyperbolicTreeView" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74C0BFEE2779CE94004A688B;
+			productRefGroup = 74C0BFF82779CE94004A688B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74C0BFF62779CE94004A688B /* HyperbolicTreeView */,
+				74DE72CC277D7DF900B76176 /* HyperbolicTreeViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74C0BFF52779CE94004A688B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C0BFFF2779CE96004A688B /* Assets.xcassets in Resources */,
+				74C0C0022779CE96004A688B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DE72CB277D7DF900B76176 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74C0BFF32779CE94004A688B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C0C0162779CFE2004A688B /* HTVNode.swift in Sources */,
+				74C0C01D2779CFEF004A688B /* Graphics.swift in Sources */,
+				74C0BFFD2779CE94004A688B /* ViewController.swift in Sources */,
+				74C0C0142779CFE2004A688B /* HTVGeodesic.swift in Sources */,
+				74C0C0152779CFE2004A688B /* HTVComplex.swift in Sources */,
+				74C0C0192779CFE2004A688B /* HTVActionManager.swift in Sources */,
+				7401AC0527816AA700EF1093 /* HTVRenderingAlgorithm.swift in Sources */,
+				74C0C00C2779CFC8004A688B /* HyperbolicTreeView.swift in Sources */,
+				74C0C0182779CFE2004A688B /* HTVEvent.swift in Sources */,
+				74C0BFFB2779CE94004A688B /* AppDelegate.swift in Sources */,
+				74607168277E8ADB004CC8BC /* ClickDetector.swift in Sources */,
+				74C0C0172779CFE2004A688B /* HTVProjector.swift in Sources */,
+				74C0C01E2779CFEF004A688B /* Sprite.swift in Sources */,
+				74F0336427813AD1002431F4 /* HTVLayoutAlgorithm.swift in Sources */,
+				74C0C01A2779CFE2004A688B /* HTVTransform.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DE72C9277D7DF900B76176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DE72DA277D868A00B76176 /* TestView.swift in Sources */,
+				74DE72D0277D7DF900B76176 /* HyperbolicTreeViewTests.swift in Sources */,
+				74DE72D8277D7E6600B76176 /* HTVComplexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74DE72D2277D7DF900B76176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74C0BFF62779CE94004A688B /* HyperbolicTreeView */;
+			targetProxy = 74DE72D1277D7DF900B76176 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74C0C0002779CE96004A688B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74C0C0012779CE96004A688B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74C0C0042779CE96004A688B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74C0C0052779CE96004A688B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		74C0C0072779CE96004A688B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HyperbolicTreeView/HyperbolicTreeView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.HyperbolicTreeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		74C0C0082779CE96004A688B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HyperbolicTreeView/HyperbolicTreeView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.HyperbolicTreeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		74DE72D3277D7DF900B76176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.HyperbolicTreeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyperbolicTreeView.app/Contents/MacOS/HyperbolicTreeView";
+			};
+			name = Debug;
+		};
+		74DE72D4277D7DF900B76176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.HyperbolicTreeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyperbolicTreeView.app/Contents/MacOS/HyperbolicTreeView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74C0BFF22779CE94004A688B /* Build configuration list for PBXProject "HyperbolicTreeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C0C0042779CE96004A688B /* Debug */,
+				74C0C0052779CE96004A688B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C0C0062779CE96004A688B /* Build configuration list for PBXNativeTarget "HyperbolicTreeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C0C0072779CE96004A688B /* Debug */,
+				74C0C0082779CE96004A688B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DE72D5277D7DF900B76176 /* Build configuration list for PBXNativeTarget "HyperbolicTreeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DE72D3277D7DF900B76176 /* Debug */,
+				74DE72D4277D7DF900B76176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74C0BFEF2779CE94004A688B /* Project object */;
+}
