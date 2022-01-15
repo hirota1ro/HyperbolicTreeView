@@ -34,23 +34,23 @@ class HTVGeodesic {
     init(from a: HTVComplex, to b: HTVComplex) {
         self.a = a
         self.b = b
-        if isOnTheDiameter() {
+        if isOnTheDiameter {
             type = .LINE
         } else {
             type = .CURVE
-            self.c = controlPoint(origin: center())
+            self.c = controlPoint(origin: center)
         }
     }
 
     // Point A,B is on the diameter of the Poincare disk
-    func isOnTheDiameter() -> Bool {
+    var isOnTheDiameter: Bool {
         return (abs(a.magnitude) < HTVGeodesic.EPSILON)  // a == origin
             || (abs(b.magnitude) < HTVGeodesic.EPSILON)  // b == origin
-            || (abs((a.re / b.re) - (a.im / b.im)) < HTVGeodesic.EPSILON)  // a = lambda.b
+            || (abs(a.re * b.im - a.im * b.re) < HTVGeodesic.EPSILON) // a = lambda.b
     }
 
     // center of the geodesic
-    func center() -> HTVComplex {
+    var center: HTVComplex {
         let da: Double = 1 + a.re * a.re + a.im * a.im
         let db: Double = 1 + b.re * b.re + b.im * b.im
         let dd: Double = 2 * (a.re * b.im - b.re * a.im)
