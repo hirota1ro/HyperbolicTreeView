@@ -121,6 +121,8 @@ extension HTVComplex {
     }
 
     static prefix func - (_ z: HTVComplex) -> HTVComplex { return HTVComplex(re: -z.re, im: -z.im) }
+
+    func cross(_ z: HTVComplex) -> Double { return re * z.im - im * z.re }
 }
 
 extension HTVComplex: CustomStringConvertible {

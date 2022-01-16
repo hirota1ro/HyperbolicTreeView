@@ -44,9 +44,7 @@ class HTVGeodesic {
 
     // Point A,B is on the diameter of the Poincare disk
     var isOnTheDiameter: Bool {
-        return (abs(a.magnitude) < HTVGeodesic.EPSILON)  // a == origin
-            || (abs(b.magnitude) < HTVGeodesic.EPSILON)  // b == origin
-            || (abs(a.re * b.im - a.im * b.re) < HTVGeodesic.EPSILON) // a = lambda.b
+        return abs(a.cross(b)) < HTVGeodesic.EPSILON
     }
 
     // center of the geodesic
